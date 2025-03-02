@@ -1,0 +1,131 @@
+.shadow-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.tour-card img {
+  transition: transform 0.3s ease;
+}
+
+.tour-card:hover img {
+  transform: scale(1.05);
+}
+
+.tour-card .overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tour-card:hover .overlay {
+  opacity: 1;
+}
+
+.tour-card .btn-outline-primary {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tour-card .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.hero-carousel .carousel-item {
+  transition: transform 1.5s ease-in-out !important;
+}
+
+.hero-carousel .carousel-control-prev,
+.hero-carousel .carousel-control-next {
+  width: 5%;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.hero-carousel .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.hero-carousel .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+.carousel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.social-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #f39c12;
+}
+
+footer {
+  background: linear-gradient(
+    135deg,
+    #1e1e1e,
+    #343a40
+  );
+}
+
+footer h5 {
+  font-weight: 600;
+}
+
+footer .text-muted {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.tour-categories-title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #2622ed, #2566df); /* Gradient color */
+  -webkit-background-clip: text;
+  color: transparent; /* Text color set to transparent to show gradient */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Soft text shadow for a 3D effect */
+  letter-spacing: 2px; /* Slightly increased letter spacing */
+  animation: fadeInUp 1s ease-out; /* Animation to fade in from below */
+}
+
+/* Keyframes for fadeInUp animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: Style for the container text */
+/* .bg-light p {
+  font-size: 1.1rem;
+  color: #555;
+} */
+
+
